@@ -38,14 +38,11 @@ npm install
 In /Server directory, create a .env file with:
 
 
-Copy code
 PORT=4000
 MONGO_URI=<your-mongodb-connection-string>
 ⚠️ Never commit .env to GitHub — it contains sensitive credentials.
 
 ▶️ Run the backend
-bash
-Copy code
 node server.js
 You should see:
 
@@ -101,6 +98,7 @@ mern-candidate-video-interview/
 └── README.md
 🧪 API Endpoints
 Candidate Application
+
 Method	Endpoint	Description
 POST	/candidate/api/apply	Submit candidate data + resume
 POST	/candidate/api/video/:id	Upload video for candidate
