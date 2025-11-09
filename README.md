@@ -31,17 +31,13 @@ cd mern-candidate-video-interview
 📁 Navigate to server folder
 If your backend code is in a Server directory:
 
-bash
-Copy code
 cd Server
 📦 Install dependencies
-bash
-Copy code
 npm install
 ⚙️ Create a .env file
 In /Server directory, create a .env file with:
 
-ini
+
 Copy code
 PORT=4000
 MONGO_URI=<your-mongodb-connection-string>
@@ -53,16 +49,14 @@ Copy code
 node server.js
 You should see:
 
-arduino
-Copy code
+
 ✅ MongoDB connected & GridFS initialized
 🚀 Server running on port 4000
 3️⃣ Frontend Setup
 📁 Go to the frontend folder
 If your frontend is inside /Client:
 
-bash
-Copy code
+
 cd ../Client
 📦 Install dependencies
 bash
@@ -71,8 +65,7 @@ npm install
 🧩 Create API config file
 In Client/src/API/api.js:
 
-js
-Copy code
+
 import axios from 'axios';
 
 const api = axios.create({
@@ -81,8 +74,6 @@ const api = axios.create({
 
 export default api;
 ▶️ Run the frontend
-bash
-Copy code
 npm run dev
 Your app should be available at:
 
