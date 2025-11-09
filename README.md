@@ -56,8 +56,6 @@ If your frontend is inside /Client:
 
 cd ../Client
 📦 Install dependencies
-bash
-Copy code
 npm install
 🧩 Create API config file
 In Client/src/API/api.js:
@@ -77,8 +75,6 @@ Your app should be available at:
 
 http://localhost:5173/
 🧰 Project Structure
-pgsql
-Copy code
 mern-candidate-video-interview/
 ├── Client/                # React Frontend
 │   ├── src/
